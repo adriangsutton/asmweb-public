@@ -1,0 +1,364 @@
+/************* TOP LEVEL CONTAINERS ********************/
+
+html {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 0.9em;
+    color: #DDDDDD;
+    background-color: black;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/************* SITE-WIDE ELEMENT SETTINGS ********************/
+
+p {
+    font-size: 1.3rem;  /* Default font size for content */
+}
+
+a {
+    text-decoration: none;
+    color: #03aeea;
+}
+
+hr {
+    width: 100%;
+}
+
+a:hover {
+    color: gold;
+}
+
+h1 {
+    color: gold;
+}
+
+img {
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+/***************************  MEDIA PLAYER *************************************/
+
+div.mediaPlayerTiny {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+div.mediaPlayerTiny.button {
+
+}
+
+div.mediaPlayerTiny.button img {
+    filter: invert();
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+div.audioProgress {
+    width: 100%;
+    padding-left: 10px;
+    
+}
+
+div.mediaPlayerTiny progress {
+    width: 100%;
+}
+
+div.amplitude-play-pause {
+    filter: invert();
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+
+div.amplitude-play-pause.amplitude-paused {
+    background-size: cover;
+    background: url("/images/svg/play.svg");
+}
+div.amplitude-play-pause.amplitude-playing {
+    background-size: cover;
+    background: url("/images/svg/pause.svg");
+}
+
+
+/***************************  BRAND & NAVIGATION BAR *************************************/
+
+.brandnav {
+    font-size: 1.7rem;
+    padding: 40px 40px 0 40px;
+    display: flex;
+}
+
+.brandbox {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.socialsgroupbox {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.socialsiconbox img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    object-fit: cover;
+    filter: invert();
+}
+
+.navbar ul {
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+ }
+
+ .navbar li {
+     padding: 20px;
+     text-decoration: none;
+ }
+
+ /* Main menu nav links */
+a.nav-link {
+    color: #AAAAAA;
+}
+
+a.nav-link:hover {
+    color: gold;
+}
+
+a.nav-link.brand {
+    color: red;
+}
+
+/******************************  MAIN SECTION CONTAINER  ***************************************/
+.mainsection{
+    /* Center the content */
+    display: flex;
+    flex-grow: 1;
+    padding: 0px 40px 0px 40px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardGrid {
+    display: flex;
+    justify-content: center;
+    /* Put a card in the next row when previous cards take all width */
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+/******************************  FOOTER  ***************************************/
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+
+/******************************  CARDS  ***************************************/
+/* Cards are panels that have a cover image at the top, and title and content below.
+Cards can be of varying widths */
+
+@keyframes cardAppear {
+    from {
+        filter: blur(5px);
+        transform: scale(0.8);
+    }
+    to {
+        filter: blur(0);
+        transform: scale(1);
+    }
+}
+
+.card {
+    background-color: #222222;
+    border: 1px solid #666666;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px 30px 0px;
+    padding: 10px;
+    animation-name: cardAppear;
+    animation-duration: 0.6s;
+}
+
+.card hr {
+    width: 100%; /* Needed if you're going to use <hr> inside a flex container */
+}
+
+.card img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.card .content {
+    text-align: center;
+}
+
+.card h2 {
+    margin: 0;
+    text-align: center;
+}
+
+
+/*************** Tiny cards **************/
+
+
+.card.tiny {
+    width: 200px;
+}
+
+.card.tiny img {
+    height: 150px;
+}
+
+.card.tiny h2 {
+    padding: 5px;
+}
+
+
+
+/*************** Small cards **************/
+.card.small {
+    width: 400px;
+}
+
+.card.small img {
+    height: 200px;
+}
+
+.card.small h2 {
+    padding: 10px;
+}
+
+/*************** Medium cards **************/
+
+.card.medium {
+    width: 50%;
+}
+
+.card.medium img {
+    height: 500px;
+}
+
+.card.medium h2 {
+    padding: 30px;
+}
+
+
+
+/******************************  LANDING PAGE  ***************************************/
+
+.lpVideo {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+
+/*
+.backstretch img {
+    filter: brightness(50%)
+}*/
+
+
+/******************************  CONTACT PAGE  ***************************************/
+
+.contactPage {
+    width: 50%;
+}
+
+.contactAdrianBox {
+    width: 25%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.representationBox {
+
+}
+
+input[type=text], [type=email], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+input[type=submit] {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  
+  input[type=submit]:hover {
+    background-color: orange;
+  }
+  
+
+/******************************  MEDIA QUERY ADJUSTMENTS  ***************************************/
+
+@media only screen and (max-width: 1000px) {
+    /* For mobile phones: */
+
+    .navbar ul {
+        font-size: 0.7em;
+    }
+
+    .socialsiconbox img {
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+    }
+
+    .card.medium {
+        width: 100%;
+    }
+  }
