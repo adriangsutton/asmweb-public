@@ -1,9 +1,9 @@
 ---
 title: "A Fist Full of Fives"
 layout: projectDetail
-image: "/projects/orchestral/A_Fist_Full_of_Fives/5.png"
+image: "/projects/orchestral/A_Fist_Full_Of_Fives/5.png"
 isDetailPage: true
-permalink: "/projects/orchestral/A_Fist_Full_of_Fives/info.html"
+permalink: "/projects/orchestral/A_Fist_Full_Of_Fives/info.html"
 ---
 (extract perf. BBC Symphony Orchestra under Michael Seal)
 
