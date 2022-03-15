@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         },
         { /* playerIdx 15 */
           "name": "Griffin and the Grail",
-          "url": "/projects/orchestral/The_Griffin_And_The_Grail/Griffin_And_The_Grail_SR01.mp3"
+          "url": "/projects/orchestral/The_Griffin_and_the_Grail/Griffin_And_The_Grail_SR01.mp3"
         },
         { /* playerIdx 16 */
           "name": "Sinfonietta",
