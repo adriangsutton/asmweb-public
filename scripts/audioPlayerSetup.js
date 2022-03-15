@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         },
         { /* playerIdx 12 */
           "name": "A Fist Full of Fives",
-          "url": "/projects/orchestral/A_Fist_Full_Of_Fives/FFo5s_SR01.mp3"
+          "url": "/projects/orchestral/A_Fist_Full_of_Fives/FFo5s_SR01.mp3"
         },
         { /* playerIdx 13 */
           "name": "War Horse Suite",
