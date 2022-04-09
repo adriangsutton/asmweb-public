@@ -7,3 +7,4 @@ permalink: "/projects/theatre/Semmelweis/info.html"
 ---
 Produced at the Bristol Old Vic, 2022
 <p>Dir. Tom Morris</p>
+Extract performed by <a href="https://www.salomequartet.com/">The Salomé quartet</a>
