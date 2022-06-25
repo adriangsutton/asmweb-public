@@ -1,120 +1,55 @@
 /************* TOP LEVEL CONTAINERS ********************/
 
 html {
-    font-family: 'League Spartan', sans-serif;
+    /* font-family: 'League Spartan', sans-serif; */
+    font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
-    color: #DDDDDD;
-    background-color: black;
+    color: #EEEEEE;
+    background-color: #222222;
     height: 100vh;
     width: 100%;
     margin: 0;
     padding: 0;
 }
-
 body {
     height: 100%;
     padding: 0;
     margin: 0;
 }
-
 .wrapper {
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-
 /************* SITE-WIDE ELEMENT SETTINGS ********************/
-
 p {
     font-size: 1.3rem;  /* Default font size for content */
 }
-
 a {
     text-decoration: none;
     color: #03aeea;
 }
-
 hr {
     width: 100%;
 }
-
 a:hover {
     color: gold;
 }
-
 h1 {
     color: gold;
 }
-
-img {
-    border: 1px solid white;
-    border-radius: 10px;
-}
-
-/***************************  MEDIA PLAYER *************************************/
-
-div.mediaPlayerTiny {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-div.mediaPlayerTiny.button {
-
-}
-
-div.mediaPlayerTiny.button img {
-    filter: invert();
-    width: 25px;
-    height: 25px;
-    padding: 3px;
-    vertical-align: middle;
-}
-
-div.audioProgress {
-    width: 100%;
-    padding-left: 10px;
-    
-}
-
-div.mediaPlayerTiny progress {
-    width: 100%;
-}
-
-div.amplitude-play-pause {
-    filter: invert();
-    width: 25px;
-    height: 25px;
-    padding: 0;
-    cursor: pointer;
-    vertical-align: middle;
-}
-
-div.amplitude-play-pause.amplitude-paused {
-    background-size: cover;
-    background: url("/images/svg/play.svg");
-}
-div.amplitude-play-pause.amplitude-playing {
-    background-size: cover;
-    background: url("/images/svg/pause.svg");
-}
-
-
 /***************************  BRAND & NAVIGATION BAR *************************************/
-
 .brandnav {
     font-size: 1.7rem;
     padding: 40px 40px 0 40px;
     display: flex;
 }
-
 .brandbox {
     display: flex;
     justify-content: flex-start;
     align-items: center;
 }
-
 .navbar {
     margin: 0;
     padding: 0;
@@ -123,13 +58,11 @@ div.amplitude-play-pause.amplitude-playing {
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .socialsgroupbox {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-
 .socialsiconbox img {
     width: 30px;
     height: 30px;
@@ -137,34 +70,28 @@ div.amplitude-play-pause.amplitude-playing {
     object-fit: cover;
     filter: invert();
 }
-
 .navbar ul {
     list-style: none;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: right;
     margin: 0;
     padding: 0;
  }
-
  .navbar li {
      padding: 20px;
      text-decoration: none;
  }
-
  /* Main menu nav links */
 a.nav-link {
     color: #AAAAAA;
 }
-
 a.nav-link:hover {
     color: gold;
 }
-
 a.nav-link.brand {
     color: red;
 }
-
 /******************************  MAIN SECTION CONTAINER  ***************************************/
 .mainsection{
     /* Center the content */
@@ -175,20 +102,364 @@ a.nav-link.brand {
     justify-content: center;
     align-items: center;
 }
-
-.cardGrid {
-    display: flex;
-    justify-content: center;
-    /* Put a card in the next row when previous cards take all width */
-    flex-wrap: wrap;
-    width: 100%;
-}
-
 /******************************  FOOTER  ***************************************/
 .footer {
     display: flex;
     justify-content: center;
 }
+/**************************** MUSIC SHOWCASE SECTIONS **************************/
+.showcaseSection {
+    display: flex;
+    margin: 10px;
+}
+.showcaseSectionText {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    font-size: 1.5em;
+}
+/***************************  TILES *************************************/
+.tilegridWrapper {
+    display: inline;
+}
+.tileGrid {
+    display: flex;
+    flex-flow: row wrap; /* Put a tile in the next row when previous cards take all width */
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 40%;
+    
+}
+.tile {
+    border: 1px solid #666666;
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    animation-name: tileAppear;
+    animation-duration: 0.6s;
+}
+.tile img {
+    border: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.tile a {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+@keyframes tileAppear {
+    from {
+        filter: blur(5px);
+        transform: scale(0.8);
+    }
+    to {
+        filter: blur(0);
+        transform: scale(1);
+    }
+}
+/***************************** PROJECT DETAIL PAGES *******************************/
+.pdTopContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+}
+.pdHeader {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+}
+.pdBanner {
+    display: flex;
+    height: 200px;
+}
+.pdBanner img {
+    height: 100%;
+    object-fit: cover;
+}
+.pdTitleAndYear {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    font-size: 3em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.pdTitle {
+    font-size: 3rem;
+}
+.pdYear {
+    font-size: 1.2rem;
+}
+.pdAudioPlayer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: right;
+    justify-content: right;
+}
+.pdMainContainer {
+    display: flex;
+    width: 100%;
+}
+.pdMainContent {
+    display: block;
+    width: 80%;
+    padding: 20px;
+}
+.pdContentImg {
+    display: flex;
+    justify-content: center;
+}
+.pdContentImg img {
+    width: 100%;
+    object-fit: cover;
+}
+.pdSidebar {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 20px;
+    border-width: 1px;
+    border-color: grey;
+    border-style: none none none solid;
+}
+
+.pdSidebar p {
+    font-size: 1.0rem;
+    text-align: center;
+}
+
+.pdSidebarSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.pdSidebarSectionTitle {
+    font-size: 1.0rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+.pdSidebarImage {
+    display: flex;
+    justify-content: center;
+}
+
+.pdSidebar img {
+    max-width: 150px;
+    object-fit: cover;
+}
+
+/******************************  SHOWREEL PAGE  ***************************************/
+
+.showreelsContainer {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.showreelAudioPlayer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: right;
+    justify-content: right;
+}
+
+.showreelTitleOrch {
+    width: 100%;
+    text-align: center;
+    color: gold;
+}
+
+.showreelTitleNonOrch {
+    width: 100%;
+    text-align: center;
+    color: #FF4444;
+}
+
+.showreelPlaylistOrch, .showreelPlaylistNonOrch {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+}
+
+.showreelPlaylistOrch {
+    border: gold solid 1px;
+}
+
+.showreelPlaylistNonOrch {
+    border: #FF4444 solid 1px;
+}
+
+.showreelTrack {
+    margin: 5px;
+    width: 100%;
+}
+
+
+.showreelPlaylistOrch p {
+    margin: 0;
+    color: gold;
+}
+
+.showreelPlaylistNonOrch p {
+    margin: 0;
+    color: #FF4444;
+}
+
+/******************************  LANDING PAGE  ***************************************/
+.lpVideo {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+/*
+.backstretch img {
+    filter: brightness(50%)
+}*/
+/******************************  CONTACT PAGE  ***************************************/
+.contactPage {
+    width: 50%;
+}
+.contactAdrianBox {
+    width: 25%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+}
+.representationBox {
+
+}
+input[type=text], [type=email], textarea, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } 
+input[type=submit] {
+    width: 100%;
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+input[type=submit]:hover {
+    background-color: orange;
+  }
+/***************************  AUDIO PLAYER *************************************/
+.audioPlayer {
+}
+.audioTrackRow {
+    display: flex;
+    padding: 5px;
+}
+div.audioProgress {
+    padding-left: 10px;
+}
+div.amplitude-play-pause {
+    filter: invert();
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    cursor: pointer;
+    vertical-align: middle;
+}
+div.amplitude-play-pause.amplitude-paused {
+    background-size: cover;
+    background: url("/images/svg/play.svg");
+}
+div.amplitude-play-pause.amplitude-playing {
+    background-size: cover;
+    background: url("/images/svg/pause.svg");
+}
+
+/******************************  MEDIA QUERY ADJUSTMENTS  ***************************************/
+
+@media only screen and (max-width: 1000px) {
+    /* For tablets: */
+
+    p {
+        font-size: 1.1rem;  /* Default font size for content */
+    }
+
+    .navbar ul {
+        font-size: 0.7em;
+    }
+
+    .socialsiconbox img {
+        width: 20px;
+        height: 20px;
+        padding: 3px;
+    }
+    .pdTopContainer {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    /* For phones: */
+    p {
+        font-size: 1.1rem;  /* Default font size for content */
+    }
+    .tile {
+        width: 100px;
+    }
+    .tile a {
+        width: 100px;
+        height: 100px;
+    }
+    .tileGrid {
+        flex-direction: column;
+        justify-content: start;
+    }
+    .pdTopContainer {
+        width: 100%;
+    }
+    .pdMainContainer {
+        width: 100%;
+        display: block;
+    }
+    .pdMainContent {
+        width: 100%;
+        padding: 0;
+    }
+    .pdSidebar {
+        border-style: solid none none none;
+        padding: 0;
+        width: 100%;
+    }
+
+    .showreelsContainer {
+        flex-direction: column;
+        width: 100%;
+    }
+  }
+
+
+
+/*******************************************************************************************************************************************************/
+/*******************************************************************************************************************************************************/
+/* OLD - Everything below is now not used.. delete once you're sure you don't need it */
+/*******************************************************************************************************************************************************/
+/*******************************************************************************************************************************************************/
+
 
 
 /******************************  CARDS  ***************************************/
@@ -282,83 +553,52 @@ Cards can be of varying widths */
 }
 
 
+/***************************  MEDIA PLAYER *************************************/
 
-/******************************  LANDING PAGE  ***************************************/
+div.mediaPlayerTiny {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
 
-.lpVideo {
-    object-fit: cover;
-    position: absolute;
+div.mediaPlayerTiny.button {
+
+}
+
+div.mediaPlayerTiny.button img {
+    filter: invert();
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    vertical-align: middle;
+}
+
+div.audioProgress {
     width: 100%;
-    z-index: -1;
+    padding-left: 10px;
+    
 }
 
-/*
-.backstretch img {
-    filter: brightness(50%)
-}*/
-
-
-/******************************  CONTACT PAGE  ***************************************/
-
-.contactPage {
-    width: 50%;
-}
-
-.contactAdrianBox {
-    width: 25%;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 20px;
-}
-
-.representationBox {
-
-}
-
-input[type=text], [type=email], textarea, select {
+div.mediaPlayerTiny progress {
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-  }
-  
-input[type=submit] {
-    width: 100%;
-    background-color: orange;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
+}
+
+div.amplitude-play-pause {
+    filter: invert();
+    width: 25px;
+    height: 25px;
+    padding: 0;
     cursor: pointer;
-  }
+    vertical-align: middle;
+}
+
+div.amplitude-play-pause.amplitude-paused {
+    background-size: cover;
+    background: url("/images/svg/play.svg");
+}
+div.amplitude-play-pause.amplitude-playing {
+    background-size: cover;
+    background: url("/images/svg/pause.svg");
+}
 
 
-  
-  input[type=submit]:hover {
-    background-color: orange;
-  }
-  
-
-/******************************  MEDIA QUERY ADJUSTMENTS  ***************************************/
-
-@media only screen and (max-width: 1000px) {
-    /* For mobile phones: */
-
-    .navbar ul {
-        font-size: 0.7em;
-    }
-
-    .socialsiconbox img {
-        width: 20px;
-        height: 20px;
-        padding: 3px;
-    }
-
-    .card.medium {
-        width: 100%;
-    }
-  }
