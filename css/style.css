@@ -39,6 +39,7 @@ a:hover {
 h1 {
     color: gold;
 }
+
 /***************************  BRAND & NAVIGATION BAR *************************************/
 .brandnav {
     font-size: 1.7rem;
@@ -221,6 +222,13 @@ a.nav-link.brand {
     width: 100%;
     object-fit: cover;
 }
+
+.pdVideoFrame {
+    display: flex;
+    justify-content: center;
+}
+
+/******************************************* Project detail sidebar *****************************************/
 .pdSidebar {
     display: flex;
     flex-direction: column;
