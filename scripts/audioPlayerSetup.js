@@ -23,55 +23,55 @@ document.addEventListener('DOMContentLoaded', (event) => {
         {
             "playerIdx": 2,
             "name": "Curious Incident",
-            "details": "",
+            "details": "Written/played/prod. Adrian Sutton",
             "url": "/projects/theatre/Curious_Incident/audio/Curious_Incident_SR01.mp3"
         },
         {
             "playerIdx": 3,
             "name": "Angels in America",
-            "details": "",
+            "details": "Written/played/prod. Adrian Sutton",
             "url": "/projects/theatre/Angels_In_America/audio/Angels_In_America_SR01.mp3"
         },
         { 
             "playerIdx": 4,
             "name": "Coram Boy",
-            "details": "",
+            "details": "Written/played/prod. Adrian Sutton",
             "url": "/projects/theatre/Coram_Boy/audio/Coram_Boy_SR01.mp3"
         },
         { 
             "playerIdx": 5,
             "name": "Semmelweis",
-            "details": "",
+            "details": "Played by Salomé Quartet. Written/prod. Adrian Sutton",
             "url": "/projects/theatre/Semmelweis/audio/Semmelweis_Showreel.mp3"
         },
         { 
             "playerIdx": 6,
             "name": "Cyrano",
-            "details": "",
+            "details": "Written/played/prod. Adrian Sutton",
             "url": "/projects/theatre/Cyrano/audio/Cyrano_SR01.mp3"
         },
         {
             "playerIdx": 7,
             "name": "Husbands and Sons",
-            "details": "",
+            "details": "Written/played/prod. Adrian Sutton",
             "url": "/projects/theatre/Husbands_And_Sons/audio/Husbands_And_Sons_SR01.mp3"
         },
         {
             "playerIdx": 8,
             "name": "Revengers Tragedy",
-            "details": "",
+            "details": "Written/prod. Adrian Sutton",
             "url": "/projects/theatre/Revengers_Tragedy/audio/Revengers_Tragedy_SR01.mp3"
         },
         {
             "playerIdx": 9,
             "name": "Nation",
-            "details": "",
+            "details": "Written/played/prod. Adrian Sutton",
             "url": "/projects/theatre/Nation/audio/Nation_SR01.mp3"
         },
         {
             "playerIdx": 10,
             "name": "Rules For Living",
-            "details": "",
+            "details": "Clarinets/soprano sax: Simon Harem. Written/prod. Adrian Sutton",
             "url": "/projects/theatre/Rules_For_Living/audio/Rules_For_Living_SR01.mp3"
         },
         { 
@@ -125,7 +125,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         { 
             "playerIdx": 19,
             "name": "Blackheath Crosslight",
-            "details": "",
+            "details": "Written/prod. Adrian Sutton",
             "url": "/projects/chamber/Blackheath_Crosslight/audio/Blackheath_Crosslight.mp3"
         },
         { 
@@ -167,7 +167,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         { 
             "playerIdx": 26,
             "name": "Devon at Peace",
-            "details": "(RPO, cond. David Angus)",
+            "details": "Royal Philharmonic Orchestra, cond. David Angus",
             "url": "/audio/showreel/SR001 War Horse - Devon At Peace.mp3"
         },
         { 
@@ -185,7 +185,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         { 
             "playerIdx": 29,
             "name": "At Night in the Darkness",
-            "details": "",
+            "details": "Played/prod. Adrian Sutton",
             "url": "/audio/showreel/SR004 Murder on the Orient Express - At Night in the Darkness.mp3"
         },
         { 
@@ -263,13 +263,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
         { 
             "playerIdx": 42,
             "name": "A Stream Through Terrain",
-            "details": "Played/prod. Adrian Sutton",
+            "details": "Written/played/prod. Adrian Sutton",
             "url": "/audio/showreel/SR017 A Stream through Terrain.mp3"
         },
         { 
             "playerIdx": 43,
             "name": "New Sails",
-            "details": "Vln: Fenella Humphreys, prod. Adrian Sutton",
+            "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
             "url": "/audio/showreel/SR018 New Sails.mp3"
         },
         { 
@@ -293,7 +293,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         { 
             "playerIdx": 47,
             "name": "Lunaluma",
-            "details": "Vln: Fenella Humphreys, prod. Adrian Sutton",
+            "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
             "url": "/audio/showreel/SR022 Lunaluma.mp3"
         },
         { 
@@ -305,13 +305,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
         { 
             "playerIdx": 49,
             "name": "Homeless on the Coast",
-            "details": "Vln: Fenella Humphreys, prod. Adrian Sutton",
+            "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
             "url": "/audio/showreel/SR024 Homeless on the Coast.mp3"
         },
         { 
             "playerIdx": 50,
             "name": "Polperro Beach",
-            "details": "Played/prod. Adrian Sutton",
+            "details": "Written/played/prod. Adrian Sutton",
             "url": "/audio/showreel/SR025 Polperro Beach.mp3"
         },
         { 
@@ -331,6 +331,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
             "name": "New Orleans Nightfall",
             "details": "Trumpet: Paul Higgs",
             "url": "/audio/showreel/SR027 AiA Jazz SC32.mp3"
+        },
+        { 
+            "playerIdx": 54,
+            "name": "Sleepwalking",
+            "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
+            "url": "/audio/showreel/SR028 Sleepwalking HC.mp3"
         }
       ]
     });
