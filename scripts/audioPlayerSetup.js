@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             "playerIdx": 12,
             "name": "A Fist Full of Fives",
             "details": "",
-            "url": "/projects/orchestral/A_Fist_Full_Of_Fives/audio/FFo5s_SR01.mp3"
+            "url": "/projects/orchestral/A_Fist_Full_of_Fives/audio/FFo5s_SR01.mp3"
         },
         { 
             "playerIdx": 13,

@@ -1,7 +1,6 @@
 /************* TOP LEVEL CONTAINERS ********************/
 
 html {
-    /* font-family: 'League Spartan', sans-serif; */
     font-family: 'Nunito', sans-serif;
     font-size: 0.9em;
     color: #EEEEEE;
@@ -12,7 +11,7 @@ html {
     padding: 0;
 }
 body {
-    height: 100%;
+    min-height: 100%;
     padding: 0;
     margin: 0;
 }
@@ -119,6 +118,25 @@ a.nav-link.brand {
     width: 50%;
     font-size: 1.5em;
 }
+
+.announcementSection {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 10px;
+}
+
+.announcementSectionText {
+    display: flex;
+    flex-direction: column;
+    /*width: 50%;*/
+    font-size: 1.5em;
+}
+
+.announcementSingleImage {
+    margin: 20px;
+}
+
 /***************************  TILES *************************************/
 .tilegridWrapper {
     display: inline;
@@ -437,6 +455,11 @@ div.amplitude-play-pause.amplitude-playing {
         flex-direction: column;
         justify-content: start;
     }
+
+    .announcementSection {
+        flex-direction: column;
+    }
+
     .pdTopContainer {
         width: 100%;
     }
