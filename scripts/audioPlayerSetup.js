@@ -337,6 +337,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
             "name": "Sleepwalking",
             "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
             "url": "/audio/showreel/SR028 Sleepwalking HC.mp3"
+        },
+        { 
+            "playerIdx": 55,
+            "name": "Violin concerto",
+            "details": "",
+            "url": "/audio/private/P0038 Violin concerto QEH 28 June Fenella Humphreys RPO.mp3"
         }
       ]
     });
