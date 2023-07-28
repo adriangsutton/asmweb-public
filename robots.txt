@@ -1,2 +1,8 @@
 User-agent: *
+Disallow: /ffo5s-6789181/
+Disallow: /om-6980534/
+Disallow: /sstory-7122742/
+Disallow: /smasque-7398472/
+Disallow: /triod-8399473/
 Disallow: /vc-6782366/
+

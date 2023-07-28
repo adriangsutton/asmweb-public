@@ -343,6 +343,66 @@ document.addEventListener('DOMContentLoaded', (event) => {
             "name": "Violin concerto",
             "details": "",
             "url": "/audio/private/P0038 Violin concerto QEH 28 June Fenella Humphreys RPO.mp3"
+        },
+        { 
+            "playerIdx": 56,
+            "name": "Trio Dances",
+            "details": "",
+            "url": "/projects/chamber/Trio_Dances/audio/P0035 Trio Dances - Laura Rickard Trio Romsey.mp3"
+        },
+        { 
+            "playerIdx": 57,
+            "name": "A Fist Full of Fives",
+            "details": "",
+            "url": "/projects/orchestral/A_Fist_Full_Of_Fives/audio/P0026 A Fist Full of Fives QEH.mp3"
+        },
+        { 
+            "playerIdx": 58,
+            "name": "Intermezzo",
+            "details": "",
+            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0047 Intermezzo QEH.mp3"
+        },
+        { 
+            "playerIdx": 59,
+            "name": "Polperro Beach Orchestral",
+            "details": "",
+            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0048 Polperro Beach QEH.mp3"
+        },
+        { 
+            "playerIdx": 60,
+            "name": "Not Norwegian Dance",
+            "details": "",
+            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0050 Not Norwegian Dance QEH.mp3"
+        },
+        { 
+            "playerIdx": 61,
+            "name": "Gigue from Coram Boy",
+            "details": "",
+            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0053 Gigue from Coram Boy QEH.mp3"
+        },
+        { 
+            "playerIdx": 62,
+            "name": "Dr Semmelweis",
+            "details": "",
+            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0054 Dr Semmelweis QEH.mp3"
+        },
+        { 
+            "playerIdx": 63,
+            "name": "Short Story",
+            "details": "",
+            "url": "/projects/orchestral/Short_Story/audio/P0046 Short Story QEH.mp3"
+        },
+        { 
+            "playerIdx": 64,
+            "name": "Some See Us",
+            "details": "",
+            "url": "/projects/orchestral/Some_See_Us/audio/P0019 Some See Us QEH.mp3"
+        },
+        { 
+            "playerIdx": 65,
+            "name": "Spring Masque",
+            "details": "",
+            "url": "/projects/chamber/Spring_Masque/audio/P0014 Spring Masque - Fenella and Andy at Champs Hill.mp3"
         }
       ]
     });
