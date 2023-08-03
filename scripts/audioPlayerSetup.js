@@ -403,6 +403,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
             "name": "Spring Masque",
             "details": "",
             "url": "/projects/chamber/Spring_Masque/audio/P0014 Spring Masque - Fenella and Andy at Champs Hill.mp3"
+        }, 
+        { 
+            "playerIdx": 66,
+            "name": "Violin Concerto extract",
+            "details": "",
+            "url": "/audio/showreel/SR029 Violin concerto.mp3"
         }
       ]
     });
