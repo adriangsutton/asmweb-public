@@ -16,400 +16,658 @@ document.addEventListener('DOMContentLoaded', (event) => {
         },
         {
             "playerIdx": 1,
-            "name": "War Horse example",
+            "name": "Aerobatics Over Lake Wanaka",
             "details": "",
-            "url": "/projects/theatre/War_Horse/audio/War_Horse_SR01.mp3"
+            "url": "/works/P0001/audio/P0001.mp3"
         },
         {
             "playerIdx": 2,
-            "name": "Curious Incident",
-            "details": "Written/played/prod. Adrian Sutton",
-            "url": "/projects/theatre/Curious_Incident/audio/Curious_Incident_SR01.mp3"
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
         },
         {
             "playerIdx": 3,
-            "name": "Angels in America",
-            "details": "Written/played/prod. Adrian Sutton",
-            "url": "/projects/theatre/Angels_In_America/audio/Angels_In_America_SR01.mp3"
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 4,
-            "name": "Coram Boy",
-            "details": "Written/played/prod. Adrian Sutton",
-            "url": "/projects/theatre/Coram_Boy/audio/Coram_Boy_SR01.mp3"
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 5,
-            "name": "Semmelweis",
-            "details": "Played by Salomé Quartet. Written/prod. Adrian Sutton",
-            "url": "/projects/theatre/Semmelweis/audio/Semmelweis_Showreel.mp3"
+            "name": "Paxo Tango",
+            "details": "",
+            "url": "/works/P0005/audio/P0005.mp3"
         },
-        { 
+        {
             "playerIdx": 6,
-            "name": "Cyrano",
-            "details": "Written/played/prod. Adrian Sutton",
-            "url": "/projects/theatre/Cyrano/audio/Cyrano_SR01.mp3"
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
         },
         {
             "playerIdx": 7,
-            "name": "Husbands and Sons",
-            "details": "Written/played/prod. Adrian Sutton",
-            "url": "/projects/theatre/Husbands_And_Sons/audio/Husbands_And_Sons_SR01.mp3"
+            "name": "Coram Boy",
+            "details": "",
+            "url": "/works/P0007/audio/P0007.mp3"
         },
         {
             "playerIdx": 8,
-            "name": "Revengers Tragedy",
-            "details": "Written/prod. Adrian Sutton",
-            "url": "/projects/theatre/Revengers_Tragedy/audio/Revengers_Tragedy_SR01.mp3"
+            "name": "War Horse",
+            "details": "",
+            "url": "/works/P0008/audio/P0008.mp3"
         },
         {
             "playerIdx": 9,
-            "name": "Nation",
-            "details": "Written/played/prod. Adrian Sutton",
-            "url": "/projects/theatre/Nation/audio/Nation_SR01.mp3"
+            "name": "The Revenger's Tragedy",
+            "details": "",
+            "url": "/works/P0009/audio/P0009.mp3"
         },
         {
             "playerIdx": 10,
-            "name": "Rules For Living",
-            "details": "Clarinets/soprano sax: Simon Harem. Written/prod. Adrian Sutton",
-            "url": "/projects/theatre/Rules_For_Living/audio/Rules_For_Living_SR01.mp3"
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 11,
-            "name": "War Horse In Concert",
+            "name": "Nostalgium",
             "details": "",
-            "url": "/projects/orchestral/War_Horse_The_Story_in_Concert/audio/WHIC_SR01.mp3"
+            "url": "/works/P0011/audio/P0011.mp3"
         },
-        { 
+        {
             "playerIdx": 12,
-            "name": "A Fist Full of Fives",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/orchestral/A_Fist_Full_of_Fives/audio/FFo5s_SR01.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 13,
-            "name": "War Horse Suite",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/orchestral/War_Horse_Suite/audio/WHSuite_SR01.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 14,
-            "name": "Some See Us",
-            "details": "",
-            "url": "/projects/orchestral/Some_See_Us/audio/Some_See_Us_SR01.mp3"
-        },
-        { 
-            "playerIdx": 15,
-            "name": "Griffin and the Grail",
-            "details": "",
-            "url": "/projects/orchestral/The_Griffin_and_the_Grail/audio/Griffin_And_The_Grail_SR01.mp3"
-        },
-        { 
-            "playerIdx": 16,
-            "details": "",
-            "name": "Sinfonietta",
-            "url": "/projects/orchestral/Sinfonietta/audio/Sinfonietta_SR01.mp3"
-        },
-        { 
-            "playerIdx": 17,
             "name": "Spring Masque",
             "details": "",
-            "url": "/projects/chamber/Spring_Masque/audio/SpringMasque-01.mp3"
+            "url": "/works/P0014/audio/P0014.mp3"
         },
-        { 
+        {
+            "playerIdx": 15,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 16,
+            "name": "Curious Incident",
+            "details": "",
+            "url": "/works/P0016/audio/P0016.mp3"
+        },
+        {
+            "playerIdx": 17,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
             "playerIdx": 18,
-            "name": "Arpeggiare Variations",
+            "name": "The Griffin And The Grail",
             "details": "",
-            "url": "/projects/chamber/Arpeggiare_Variations/audio/Arpeggiare_Vars_SR01.mp3"
+            "url": "/works/P0018/audio/P0018.mp3"
         },
-        { 
+        {
             "playerIdx": 19,
-            "name": "Blackheath Crosslight",
-            "details": "Written/prod. Adrian Sutton",
-            "url": "/projects/chamber/Blackheath_Crosslight/audio/Blackheath_Crosslight.mp3"
+            "name": "Some See Us",
+            "details": "",
+            "url": "/works/P0019/audio/P0019.mp3"
         },
-        { 
+        {
             "playerIdx": 20,
-            "name": "MOTOE",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/theatre/MOTOE/audio/MOTOE The dining car.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 21,
-            "name": "WH Opening",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/theatre/War_Horse/audio/War_Horse_opening.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 22,
-            "name": "WH Scarlet extract",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/theatre/War_Horse/audio/War_Horse_Scarlet_extract.mp3"
+            "url": "/audio/null.mp3"
         },
         {
             "playerIdx": 23,
-            "name": "WH 2nd charge extract",
+            "name": "Arpeggiare Variations",
             "details": "",
-            "url": "/projects/theatre/War_Horse/audio/War_Horse_2nd_charge_extract.mp3"
+            "url": "/works/P0023/audio/P0023.mp3"
         },
-        { 
+        {
             "playerIdx": 24,
-            "name": "Bicycle Dance",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/chamber/Bicycle Dance in Lanes of Leaves and Light/audio/Bicycle Dance.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 25,
-            "name": "AOLW",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/chamber/Aerobatics_Over_Lake_Wanaka/audio/AOLW.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 26,
-            "name": "Devon at Peace",
-            "details": "Royal Philharmonic Orchestra, cond. David Angus",
-            "url": "/audio/showreel/SR001 War Horse - Devon At Peace.mp3"
-        },
-        { 
-            "playerIdx": 27,
-            "name": "A Fist Full of Fives",
-            "details": "BBC Symphony Orchestra, cond. Michael Seal",
-            "url": "/audio/showreel/SR002 A Fist Full of Fives.mp3"
-        },
-        { 
-            "playerIdx": 28,
-            "name": "First Gallop",
-            "details": "Royal Philharmonic Orchestra, cond. David Angus",
-            "url": "/audio/showreel/SR003 War Horse - First Gallop.mp3"
-        },
-        { 
-            "playerIdx": 29,
-            "name": "At Night in the Darkness",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR004 Murder on the Orient Express - At Night in the Darkness.mp3"
-        },
-        { 
-            "playerIdx": 30,
-            "name": "2nd charge",
-            "details": "Royal Philharmonic Orchestra, cond. David Angus",
-            "url": "/audio/showreel/SR005 War Horse - 2nd charge.mp3"
-        },
-        { 
-            "playerIdx": 31,
-            "name": "Emilie's Theme",
-            "details": "Royal Philharmonic Orchestra, cond. David Angus",
-            "url": "/audio/showreel/SR006 War Horse - Emilie's theme.mp3"
-        },
-        { 
-            "playerIdx": 32,
-            "name": "The Dining Car",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR007 Murder on the Orient Express - The dining car.mp3"
-        },
-        { 
-            "playerIdx": 33,
-            "name": "Very Nasty Indeed",
-            "details": "Royal Philharmonic Orchestra, cond. David Angus",
-            "url": "/audio/showreel/SR008 War Horse - Very Nasty Indeed.mp3"
-        },
-        { 
-            "playerIdx": 34,
-            "name": "The Journey Begins",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR009 Murder on the Orient Express - The journey begins.mp3"
-        },
-        { 
-            "playerIdx": 35,
-            "name": "Into The Crater",
-            "details": "Royal Philharmonic Orchestra, cond. David Angus",
-            "url": "/audio/showreel/SR010 War Horse - Into the Crater.mp3"
-        },
-        { 
-            "playerIdx": 36,
-            "name": "Sonnenschein",
-            "details": "Royal Philharmonic Orchestra, cond. David Angus",
-            "url": "/audio/showreel/SR011 War Horse - Sonnenschein.mp3"
-        },
-        { 
-            "playerIdx": 37,
-            "name": "Husbands and Sons",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR012 Husbands and Sons.mp3"
-        },
-        { 
-            "playerIdx": 38,
-            "name": "Spring Masque",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR013 Spring Masque.mp3"
-        },
-        { 
-            "playerIdx": 39,
-            "name": "Maths Appendix",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR014 Maths Appendix.mp3"
-        },
-        { 
-            "playerIdx": 40,
-            "name": "Semmelweis",
-            "details": "Perf. Salome Quartet",
-            "url": "/audio/showreel/SR015 Semmelweis.mp3"
-        },
-        { 
-            "playerIdx": 41,
-            "name": "Eulogy",
-            "details": "Vln: Fenella Humphreys, prod. Adrian Sutton",
-            "url": "/audio/showreel/SR016 Eulogy.mp3"
-        },
-        { 
-            "playerIdx": 42,
-            "name": "A Stream Through Terrain",
-            "details": "Written/played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR017 A Stream through Terrain.mp3"
-        },
-        { 
-            "playerIdx": 43,
-            "name": "New Sails",
-            "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR018 New Sails.mp3"
-        },
-        { 
-            "playerIdx": 44,
-            "name": "Station",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR019 Station.mp3"
-        },
-        { 
-            "playerIdx": 45,
-            "name": "Enchanted Island",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR020 Enchanted Island.mp3"
-        },
-        { 
-            "playerIdx": 46,
-            "name": "Creation Myth",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR021 Creation Myth.mp3"
-        },
-        { 
-            "playerIdx": 47,
-            "name": "Lunaluma",
-            "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR022 Lunaluma.mp3"
-        },
-        { 
-            "playerIdx": 48,
-            "name": "Blackheath Crosslight",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR023 Blackheath Crosslight.mp3"
-        },
-        { 
-            "playerIdx": 49,
-            "name": "Homeless on the Coast",
-            "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR024 Homeless on the Coast.mp3"
-        },
-        { 
-            "playerIdx": 50,
-            "name": "Polperro Beach",
-            "details": "Written/played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR025 Polperro Beach.mp3"
-        },
-        { 
-            "playerIdx": 51,
-            "name": "Johnny",
-            "details": "Played/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR026 Johnny.mp3"
-        },
-        { 
-            "playerIdx": 52,
-            "name": "AiA Jazz",
-            "details": "Clarinet: Alan Barnes",
-            "url": "/projects/theatre/Angels_In_America/audio/AiA Jazz SC38.mp3"
-        },
-        { 
-            "playerIdx": 53,
-            "name": "New Orleans Nightfall",
-            "details": "Trumpet: Paul Higgs",
-            "url": "/audio/showreel/SR027 AiA Jazz SC32.mp3"
-        },
-        { 
-            "playerIdx": 54,
-            "name": "Sleepwalking",
-            "details": "Vln: Fenella Humphreys, written/prod. Adrian Sutton",
-            "url": "/audio/showreel/SR028 Sleepwalking HC.mp3"
-        },
-        { 
-            "playerIdx": 55,
-            "name": "Violin concerto",
+            "name": "A Fist Full Of Fives",
             "details": "",
-            "url": "/audio/private/P0038 Violin concerto QEH 28 June Fenella Humphreys RPO.mp3"
+            "url": "/works/P0026/audio/P0026.mp3"
         },
-        { 
-            "playerIdx": 56,
+        {
+            "playerIdx": 27,
+            "name": "War Horse The Story In Concert",
+            "details": "",
+            "url": "/works/P0027/audio/P0027.mp3"
+        },
+        {
+            "playerIdx": 28,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 29,
+            "name": "Angels in America",
+            "details": "",
+            "url": "/works/P0029/audio/P0029.mp3"
+        },
+        {
+            "playerIdx": 30,
+            "name": "Eulogy",
+            "details": "",
+            "url": "/works/P0030/audio/P0030.mp3"
+        },
+        {
+            "playerIdx": 31,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 32,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 33,
+            "name": "Kensington Fanfare",
+            "details": "",
+            "url": "/works/P0033/audio/P0033.mp3"
+        },
+        {
+            "playerIdx": 34,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 35,
             "name": "Trio Dances",
             "details": "",
-            "url": "/projects/chamber/Trio_Dances/audio/P0035 Trio Dances - Laura Rickard Trio Romsey.mp3"
+            "url": "/works/P0035/audio/P0035.mp3"
         },
-        { 
-            "playerIdx": 57,
-            "name": "A Fist Full of Fives",
+        {
+            "playerIdx": 36,
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/orchestral/A_Fist_Full_Of_Fives/audio/P0026 A Fist Full of Fives QEH.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
-            "playerIdx": 58,
-            "name": "Intermezzo",
+        {
+            "playerIdx": 37,
+            "name": "Blackheath Crosslight",
             "details": "",
-            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0047 Intermezzo QEH.mp3"
+            "url": "/works/P0037/audio/P0037.mp3"
         },
-        { 
-            "playerIdx": 59,
-            "name": "Polperro Beach Orchestral",
+        {
+            "playerIdx": 38,
+            "name": "Violin concerto",
             "details": "",
-            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0048 Polperro Beach QEH.mp3"
+            "url": "/works/P0038/audio/P0038.mp3"
         },
-        { 
-            "playerIdx": 60,
-            "name": "Not Norwegian Dance",
+        {
+            "playerIdx": 39,
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0050 Not Norwegian Dance QEH.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
-            "playerIdx": 61,
-            "name": "Gigue from Coram Boy",
+        {
+            "playerIdx": 40,
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0053 Gigue from Coram Boy QEH.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
-            "playerIdx": 62,
-            "name": "Dr Semmelweis",
+        {
+            "playerIdx": 41,
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/orchestral/Orchestral_Miniatures/audio/P0054 Dr Semmelweis QEH.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
-            "playerIdx": 63,
+        {
+            "playerIdx": 42,
+            "name": "Sap and Sinews",
+            "details": "",
+            "url": "/works/P0042/audio/P0042.mp3"
+        },
+        {
+            "playerIdx": 43,
+            "name": "Consolation",
+            "details": "",
+            "url": "/works/P0043/audio/P0043.mp3"
+        },
+        {
+            "playerIdx": 44,
+            "name": "Dr. Semmelweis",
+            "details": "",
+            "url": "/works/P0044/audio/P0044.mp3"
+        },
+        {
+            "playerIdx": 45,
+            "name": "Murder On The Orient Express",
+            "details": "",
+            "url": "/works/P0045/audio/P0045.mp3"
+        },
+        {
+            "playerIdx": 46,
             "name": "Short Story",
             "details": "",
-            "url": "/projects/orchestral/Short_Story/audio/P0046 Short Story QEH.mp3"
+            "url": "/works/P0046/audio/P0046.mp3"
         },
-        { 
+        {
+            "playerIdx": 47,
+            "name": "Intermezzo",
+            "details": "",
+            "url": "/works/P0047/audio/P0047.mp3"
+        },
+        {
+            "playerIdx": 48,
+            "name": "Polperro Beach",
+            "details": "",
+            "url": "/works/P0048/audio/P0048.mp3"
+        },
+        {
+            "playerIdx": 49,
+            "name": "War Horse Orchestral Suite",
+            "details": "",
+            "url": "/works/P0049/audio/P0049.mp3"
+        },
+        {
+            "playerIdx": 50,
+            "name": "Not Norwegian Dance",
+            "details": "",
+            "url": "/works/P0050/audio/P0050.mp3"
+        },
+        {
+            "playerIdx": 51,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 52,
+            "name": "Bicycle Dance",
+            "details": "",
+            "url": "/works/P0052/audio/P0052.mp3"
+        },
+        {
+            "playerIdx": 53,
+            "name": "Gigue from Coram Boy",
+            "details": "",
+            "url": "/works/P0053/audio/P0053.mp3"
+        },
+        {
+            "playerIdx": 54,
+            "name": "Dr Semmelweis",
+            "details": "",
+            "url": "/works/P0054/audio/P0054.mp3"
+        },
+        {
+            "playerIdx": 55,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 56,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 57,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 58,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 59,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 60,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 61,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 62,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 63,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
             "playerIdx": 64,
-            "name": "Some See Us",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/orchestral/Some_See_Us/audio/P0019 Some See Us QEH.mp3"
+            "url": "/audio/null.mp3"
         },
-        { 
+        {
             "playerIdx": 65,
-            "name": "Spring Masque",
+            "name": "<blank>",
             "details": "",
-            "url": "/projects/chamber/Spring_Masque/audio/P0014 Spring Masque - Fenella and Andy at Champs Hill.mp3"
-        }, 
-        { 
+            "url": "/audio/null.mp3"
+        },
+        {
             "playerIdx": 66,
-            "name": "Violin Concerto extract",
+            "name": "<blank>",
             "details": "",
-            "url": "/audio/showreel/SR029 Violin concerto.mp3"
-        }
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 67,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 68,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 69,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 70,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 71,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 72,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 73,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 74,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 75,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 76,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 77,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 78,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 79,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 80,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 81,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 82,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 83,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 84,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 85,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 86,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 87,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 88,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 89,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 90,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 91,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 92,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 93,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 94,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 95,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 96,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 97,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 98,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 99,
+            "name": "<blank>",
+            "details": "",
+            "url": "/audio/null.mp3"
+        },
+        {
+            "playerIdx": 100,
+            "name": "P0038 Violin concerto full",
+            "details": "",
+            "url": "/hidden/P0038 Violin Concerto/P0038 full.mp3"
+        },
+        {
+            "playerIdx": 101,
+            "name": "P0014 Spring Masque full",
+            "details": "",
+            "url": "/hidden/P0014 Spring Masque/P0014 full.mp3"
+        },
+        {
+            "playerIdx": 102,
+            "name": "P0026 Ffo5s full",
+            "details": "",
+            "url": "/hidden/P0026 A Fist Full Of Fives/P0026 full.mp3"
+        },
+        {
+            "playerIdx": 103,
+            "name": "P0046 Short Story full",
+            "details": "",
+            "url": "/hidden/P0046 Short Story/P0046 full.mp3"
+        },
+        {
+            "playerIdx": 104,
+            "name": "Intermezzo",
+            "details": "",
+            "url": "/hidden/Orchestral Miniatures/P0047 Intermezzo.mp3"
+        },
+        {
+            "playerIdx": 105,
+            "name": "Polperro Beach (from Curious Incident)",
+            "details": "",
+            "url": "/hidden/Orchestral Miniatures/P0048 Polperro Beach.mp3"
+        },
+        {
+            "playerIdx": 106,
+            "name": "Not Norwegian Dance",
+            "details": "",
+            "url": "/hidden/Orchestral Miniatures/P0050 Not Norwegian Dance.mp3"
+        },
+        {
+            "playerIdx": 107,
+            "name": "Gigue (from Coram Boy)",
+            "details": "",
+            "url": "/hidden/Orchestral Miniatures/P0053 Gigue from Coram Boy.mp3"
+        },
+        {
+            "playerIdx": 108,
+            "name": "Dr Semmelweis",
+            "details": "",
+            "url": "/hidden/Orchestral Miniatures/P0054 Dr Semmelweis.mp3"
+        },
+        {
+            "playerIdx": 109,
+            "name": "Trio Dances",
+            "details": "",
+            "url": "/hidden/P0035 Trio Dances/P0035 full.mp3"
+        } 
       ]
     });
 

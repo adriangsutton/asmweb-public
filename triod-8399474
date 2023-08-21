@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> 
+        Adrian Sutton 
+         
+            - Trio Dances 
+         
+    </title>
+    <meta name="description" content="
+        
+            Trio Dances
+        " >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap" rel="stylesheet"> -->
+     <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="/css/style.css">
+    <script type="text/javascript" src="/scripts/jQuery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/scripts/jQuery.backstretch.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/amplitudejs@v5.3.2/dist/amplitude.js"></script>
+    <script type="text/javascript" src="/scripts/audioPlayerSetup.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-87769734-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-87769734-1');
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="brandnav">
+            <div class="brandbox">
+                <a class="nav-link brand" href="/">Adrian Sutton</a>
+            </div>
+            <div class="navbar">
+                <ul>
+                    
+                        <li><a class="nav-link" href="/works/">Works</a></li>
+                    
+                        <li><a class="nav-link" href="/contact/">Contact</a></li>
+                    
+                </ul>
+            </div>
+            <div class="socialsgroupbox">
+                <div class="socialsiconbox"><a href="https://open.spotify.com/artist/2X8Vl5zqDsjdowwnFgp353?si=p2ZZkB0xS0uO74jFCELO6w" target="_blank"><img src="/images/icons/spotify.png" alt="spotify"></a></div>
+                <div class="socialsiconbox"><a href="https://music.apple.com/gb/artist/adrian-sutton/1530218918" target="_blank"><img src="/images/icons/apple.png" alt="apple"></a></div>
+                <div class="socialsiconbox"><a href="https://twitter.com/adriansutton" target="_blank"><img src="/images/icons/twitter.png" alt="twitter"></a></div>
+                <div class="socialsiconbox"><a href="https://www.instagram.com/adriansuttoncomposer/" target="_blank"><img src="/images/icons/insta.png" alt="insta"></a></div>
+            </div>
+        </div>
+        <div class="mainsection">
+                <h2>Trio Dances (2021)</h2>
+<div class="wlWorkTitleRow">
+        <div class="wlWorkTitle">Trio Dances</div><div class="pdAudioPlayer">
+                <div class="audioTrackRow">
+                    <div class="button">
+                        <div class="amplitude-play-pause" amplitude-main-play-pause="true" data-amplitude-song-index="109"></div>
+                    </div>
+                    <div class="audioProgress">
+                        <input type="range" class="amplitude-song-slider" data-amplitude-song-index="109"/>
+                    </div>
+                </div>
+            </div><div class="wlWorkLinkButton"><a href="/works/P0035/pdf/Trio Dances.pdf" target="_blank">PDF</a></div></div>
+<div class="pdMainContent">
+<p><p>
+This is a little suite of three dances for string trio that, in a sense, picks up from where Adrian's violin/viola duo Spring Masque (2012) left off.</p></p>
+<p><p>
+<h3>1.Galliard</h3>
+Ever since writing the score for the National Theatre’s production of The Revenger’s Tragedy in 2008, Adrian had fallen in love with a certain kind of Renaissance-inspired sound which infuses the first of these dances. The opening characteristic stress pattern of the 6/8 Galliard metre is used as a platform throughout the movement to explore the thematic material in a series of increasingly frequent modulations.</p></p>
+<p><p>
+<h3>2. Sarabande</h3>
+This is based on a simple tune that Adrian wrote many years ago and until now, never found a home for. Adrian has previously noted how composition frequently works like that.. ideas get tucked away in a drawer, waiting for their right moment. Each of the three instruments gets a turn with the melodic material.</p></p>
+<p><p>
+<h3>3. Rigaudon</h3>
+An earthy, robust dance in 2/4 time to round the suite off.. though containing some contrapuntal passage work to give the players a workout!</p></p>
+<p></p></p>
+<p><p><i>Words by Jon James</i></p></p>
+</div>
+        </div>
+        <div class="footer">
+           © Adrian Sutton 2023
+        </div>
+    </div>
+</body>
+</html>

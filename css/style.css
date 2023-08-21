@@ -21,13 +21,26 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
+/******************************  LANDING PAGE  ***************************************/
+.lpVideo {
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
+/*
+.backstretch img {
+    filter: brightness(50%)
+}*/
+
 /************* SITE-WIDE ELEMENT SETTINGS ********************/
 p {
     font-size: 1.3rem;  /* Default font size for content */
 }
 a {
     text-decoration: none;
-    color: #03aeea;
+    color: #88AAFF;
 }
 hr {
     width: 100%;
@@ -74,7 +87,7 @@ h1 {
     list-style: none;
     width: 100%;
     display: flex;
-    justify-content: right;
+    justify-content: left;
     margin: 0;
     padding: 0;
  }
@@ -100,84 +113,92 @@ a.nav-link.brand {
     padding: 0px 40px 0px 40px;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
 }
 /******************************  FOOTER  ***************************************/
 .footer {
     display: flex;
     justify-content: center;
 }
-/**************************** MUSIC SHOWCASE SECTIONS **************************/
-.showcaseSection {
-    display: flex;
-    margin: 10px;
-}
-.showcaseSectionText {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    font-size: 1.5em;
-}
+
+/***************************** FRONT PAGE *******************************/
 
 .announcementSection {
     display: flex;
-    justify-content: center;
-    width: 100%;
-    margin: 10px;
 }
 
 .announcementSectionText {
+    padding: 10px;
+}
+
+/***************************** WORKS LIST PAGE *******************************/
+
+.wlTopContainer {
     display: flex;
     flex-direction: column;
-    font-size: 1.5em;
-}
-
-.announcementSingleImage {
-    margin: 20px;
-}
-
-/***************************  TILES *************************************/
-.tilegridWrapper {
-    display: inline;
-}
-.tileGrid {
-    display: flex;
-    flex-flow: row wrap; /* Put a tile in the next row when previous cards take all width */
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-    width: 40%;
-    
-}
-.tile {
-    border: 1px solid #666666;
-    width: 150px;
-    margin: 0;
-    padding: 0;
-    animation-name: tileAppear;
-    animation-duration: 0.6s;
-}
-.tile img {
-    border: 0;
-    object-fit: cover;
-    width: 100%;
+    width: 60%;
     height: 100%;
 }
-.tile a {
-    width: 150px;
-    height: 150px;
-    display: block;
+
+.wlSection {
+    padding: 20px;
 }
 
-@keyframes tileAppear {
-    from {
-        filter: blur(5px);
-        transform: scale(0.8);
-    }
-    to {
-        filter: blur(0);
-        transform: scale(1);
-    }
+.wlSectionHeader {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: left;
+    width: 100%;
+}
+
+.wlWorkBox {
+    /*display: flex;
+    flex-wrap: wrap;*/
+    margin: 0px 0px 15px 0px;
+    padding: 10px;
+    /* border:#eeeeee solid 1px; */
+    background-color: #222222;
+}
+
+.wlWorkTitleRow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.wlWorkTitle {
+    padding-right: 20px;
+    white-space: nowrap;
+    color: gold
+}
+
+.wlWorkLinkButton {
+    background-color: #444444;
+    white-space: nowrap;
+    padding:0px 5px 0px 5px; 
+    margin: 0px 5px 0px 5px;
+}
+
+.wlWorkYear {
+}
+
+.wlWorkDetailLine {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wlWorkDetailYear {
+    padding-right: 20px;
+    color: #AAAAAA;
+}
+
+.wlWorkDetailLength {
+    padding-right: 20px;
+    color: #AAAAAA;
+}
+
+.wlWorkDetailForces {
+    color: #AAAAAA;
 }
 /***************************** PROJECT DETAIL PAGES *******************************/
 .pdTopContainer {
@@ -218,9 +239,9 @@ a.nav-link.brand {
 .pdAudioPlayer {
     display: flex;
     flex-direction: column;
-    width: 100%;
     justify-items: right;
     justify-content: right;
+    padding-right: 20px;
 }
 .pdMainContainer {
     display: flex;
@@ -239,7 +260,6 @@ a.nav-link.brand {
     width: 100%;
     object-fit: cover;
 }
-
 .pdVideoFrame {
     display: flex;
     justify-content: center;
@@ -332,7 +352,6 @@ a.nav-link.brand {
     width: 100%;
 }
 
-
 .showreelPlaylistOrch p {
     margin: 0;
     color: gold;
@@ -343,17 +362,7 @@ a.nav-link.brand {
     color: #FF4444;
 }
 
-/******************************  LANDING PAGE  ***************************************/
-.lpVideo {
-    object-fit: cover;
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-}
-/*
-.backstretch img {
-    filter: brightness(50%)
-}*/
+
 /******************************  CONTACT PAGE  ***************************************/
 .contactPage {
     width: 50%;
@@ -390,23 +399,22 @@ input[type=submit]:hover {
     background-color: orange;
   }
 /***************************  AUDIO PLAYER *************************************/
-.audioPlayer {
-}
+
 .audioTrackRow {
     display: flex;
+    align-items: center;
     padding: 5px;
 }
-div.audioProgress {
-    padding-left: 10px;
-}
+
 div.amplitude-play-pause {
     filter: invert();
-    width: 25px;
-    height: 25px;
+    width: 15px;
+    height: 15px;
     padding: 0;
     cursor: pointer;
     vertical-align: middle;
 }
+
 div.amplitude-play-pause.amplitude-paused {
     background-size: cover;
     background: url("/images/svg/play.svg");
@@ -415,6 +423,18 @@ div.amplitude-play-pause.amplitude-playing {
     background-size: cover;
     background: url("/images/svg/pause.svg");
 }
+
+div.audioProgress {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+input.amplitude-song-slider {
+    height: 10px;
+    width: 100px;
+}
+
 
 /******************************  MEDIA QUERY ADJUSTMENTS  ***************************************/
 
@@ -459,6 +479,16 @@ div.amplitude-play-pause.amplitude-playing {
         flex-direction: column;
     }
 
+    .wlWorkTitle {
+        font-size: 0.9em;
+    }
+
+    /*
+    .wlWorkTitleRow {
+        flex-direction: column;
+        align-items: left;
+    }*/
+
     .pdTopContainer {
         width: 100%;
     }
@@ -481,154 +511,4 @@ div.amplitude-play-pause.amplitude-playing {
         width: 100%;
     }
   }
-
-
-
-/*******************************************************************************************************************************************************/
-/*******************************************************************************************************************************************************/
-/* OLD - Everything below is now not used.. delete once you're sure you don't need it */
-/*******************************************************************************************************************************************************/
-/*******************************************************************************************************************************************************/
-
-
-
-/******************************  CARDS  ***************************************/
-/* Cards are panels that have a cover image at the top, and title and content below.
-Cards can be of varying widths */
-
-@keyframes cardAppear {
-    from {
-        filter: blur(5px);
-        transform: scale(0.8);
-    }
-    to {
-        filter: blur(0);
-        transform: scale(1);
-    }
-}
-
-.card {
-    background-color: #222222;
-    border: 1px solid #666666;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    margin: 0px 30px 30px 0px;
-    padding: 10px;
-    animation-name: cardAppear;
-    animation-duration: 0.6s;
-}
-
-.card hr {
-    width: 100%; /* Needed if you're going to use <hr> inside a flex container */
-}
-
-.card img {
-    width: 100%;
-    object-fit: contain;
-}
-
-.card .content {
-    text-align: center;
-}
-
-.card h2 {
-    margin: 0;
-    text-align: center;
-}
-
-
-/*************** Tiny cards **************/
-
-
-.card.tiny {
-    width: 200px;
-}
-
-.card.tiny img {
-    height: 150px;
-}
-
-.card.tiny h2 {
-    padding: 5px;
-}
-
-
-
-/*************** Small cards **************/
-.card.small {
-    width: 400px;
-}
-
-.card.small img {
-    height: 200px;
-}
-
-.card.small h2 {
-    padding: 10px;
-}
-
-/*************** Medium cards **************/
-
-.card.medium {
-    width: 50%;
-}
-
-.card.medium img {
-    height: 500px;
-}
-
-.card.medium h2 {
-    padding: 30px;
-}
-
-
-/***************************  MEDIA PLAYER *************************************/
-
-div.mediaPlayerTiny {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-div.mediaPlayerTiny.button {
-
-}
-
-div.mediaPlayerTiny.button img {
-    filter: invert();
-    width: 25px;
-    height: 25px;
-    padding: 3px;
-    vertical-align: middle;
-}
-
-div.audioProgress {
-    width: 100%;
-    padding-left: 10px;
-    
-}
-
-div.mediaPlayerTiny progress {
-    width: 100%;
-}
-
-div.amplitude-play-pause {
-    filter: invert();
-    width: 25px;
-    height: 25px;
-    padding: 0;
-    cursor: pointer;
-    vertical-align: middle;
-}
-
-div.amplitude-play-pause.amplitude-paused {
-    background-size: cover;
-    background: url("/images/svg/play.svg");
-}
-div.amplitude-play-pause.amplitude-playing {
-    background-size: cover;
-    background: url("/images/svg/pause.svg");
-}
-
 
