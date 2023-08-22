@@ -125,10 +125,31 @@ a.nav-link.brand {
 
 .announcementSection {
     display: flex;
+    flex-direction: row;
 }
 
+/*
 .announcementSectionText {
-    padding: 10px;
+    padding: 0px 0px 0px 10px;
+    display: block;
+}*/
+
+.announcementSection p {
+    margin: 0px 0px 20px 10px;
+}
+
+.announcementSingleImage {
+    display: flex;
+    align-items:;
+    justify-items: center;
+}
+
+.announcementSingleImage img {
+    border: 1px solid white;
+}
+
+.backstretch img {
+    filter: brightness(60%)
 }
 
 /***************************** WORKS LIST PAGE *******************************/
@@ -151,13 +172,10 @@ a.nav-link.brand {
     width: 100%;
 }
 
-.wlWorkBox {
-    /*display: flex;
-    flex-wrap: wrap;*/
+.wlWorkBox { 
     margin: 0px 0px 15px 0px;
     padding: 10px;
-    /* border:#eeeeee solid 1px; */
-    background-color: #222222;
+    background-color: transparent;
 }
 
 .wlWorkTitleRow {
@@ -458,27 +476,26 @@ input.amplitude-song-slider {
         width: 100%;
     }
 }
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 750px) {
     /* For phones: */
     p {
         font-size: 1.1rem;  /* Default font size for content */
     }
-    .tile {
-        width: 100px;
-    }
-    .tile a {
-        width: 100px;
-        height: 100px;
-    }
-    .tileGrid {
-        flex-direction: column;
-        justify-content: start;
-    }
-
+   
     .announcementSection {
         flex-direction: column;
     }
 
+    
+    .announcementSectionText {
+        margin: 10px 0px 0px 0px;
+    }
+
+    .announcementSectionText p {
+        padding: 0px 0px 20px 0px;
+        margin: 0px;
+    }
+    
     .wlWorkTitle {
         font-size: 0.9em;
     }
