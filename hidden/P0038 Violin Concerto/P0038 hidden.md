@@ -5,7 +5,7 @@ audioIndex: 100
 workNumber: P0038
 pdf: "Adrian Sutton - Violin Concerto"
 layout: page
-permalink: /vc-6782366
+permalink: /vc-6782366/
 ---
 <h2>Violin concerto (2023)</h2>
 

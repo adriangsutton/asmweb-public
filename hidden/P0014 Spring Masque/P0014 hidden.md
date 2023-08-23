@@ -5,7 +5,7 @@ workNumber: P0014
 pdf: "Spring Masque"
 audioIndex: 101
 layout: page
-permalink: /smasque-7398471
+permalink: /smasque-7398471/
 ---
 <h2>Spring Masque (2012)</h2>
 {% include "hiddenWorkAudioAndPDF.html" %}

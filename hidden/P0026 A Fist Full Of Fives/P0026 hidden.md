@@ -5,7 +5,7 @@ workNumber: P0026
 audioIndex: 102
 pdf: "A Fist Full Of Fives"
 layout: page
-permalink: /ffo5s-6789181
+permalink: /ffo5s-6789181/
 ---
 <h2>A Fist Full of Fives (2016)</h2>
 

@@ -5,7 +5,7 @@ layout: page
 workNumber: P0046
 pdf: "Short Story"
 audioIndex: 103
-permalink: /sstory-7122742
+permalink: /sstory-7122742/
 ---
 <h2>Short Story (2023)</h2>
 

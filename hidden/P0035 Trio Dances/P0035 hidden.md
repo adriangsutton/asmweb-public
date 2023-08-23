@@ -5,7 +5,7 @@ layout: page
 audioIndex: 109
 workNumber: P0035
 pdf: "Trio Dances"
-permalink: /triod-8399474
+permalink: /triod-8399474/
 ---
 
 <h2>Trio Dances (2021)</h2>

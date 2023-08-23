@@ -2,7 +2,7 @@
 title: "om-6980534"
 description: "Orchestral Miniatures"
 layout: page
-permalink: /om-6980534
+permalink: /om-6980534/
 ---
 <h2>Orchestral Miniatures (2023)</h2>
 
