@@ -129,12 +129,6 @@ a.nav-link.brand {
     flex-direction: row;
 }
 
-/*
-.announcementSectionText {
-    padding: 0px 0px 0px 10px;
-    display: block;
-}*/
-
 .announcementSection p {
     margin: 0px 0px 20px 10px;
 }
@@ -186,7 +180,6 @@ a.nav-link.brand {
 
 .wlWorkTitle {
     padding-right: 20px;
-    white-space: nowrap;
     color: gold
 }
 
@@ -510,20 +503,10 @@ input.amplitude-song-slider {
         padding: 0px 0px 20px 0px;
         margin: 0px;
     }
-    
-    .wlWorkTitle {
-        font-size: 0.9em;
-    }
 
     .wlWorkLinkButton {
         margin: 5px;
     }
-
-    /*
-    .wlWorkTitleRow {
-        flex-direction: column;
-        align-items: left;
-    }*/
 
     .pdTopContainer {
         width: 100%;
