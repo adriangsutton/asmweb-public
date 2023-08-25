@@ -70,9 +70,6 @@ h1 {
     margin: 0;
     padding: 0;
     justify-items: left;
-    /*flex-grow: 1;*/
-    /*flex-wrap: wrap;*/
-    /*justify-content: center;*/
 }
 .socialsgroupbox {
     display: flex;
@@ -151,7 +148,6 @@ a.nav-link.brand {
 .wlTopContainer {
     display: flex;
     flex-direction: column;
-    /* width: 60%; */
     height: 100%;
 }
 
@@ -166,28 +162,28 @@ a.nav-link.brand {
     width: 100%;
 }
 
+.wlWorkTitle {
+    padding-right: 20px;
+    color: gold
+}
+
 .wlWorkBox { 
     margin: 0px 0px 15px 0px;
     padding: 10px;
     background-color: transparent;
 }
 
-.wlWorkTitleRow {
+.wlWorkButtons {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
 }
 
-.wlWorkTitle {
-    padding-right: 20px;
-    color: gold
-}
-
 .wlWorkLinkButton {
     background-color: #444444;
     white-space: nowrap;
-    padding:0px 5px 0px 5px; 
-    margin: 0px 5px 0px 5px;
+    padding: 0px 5px 0px 5px; 
+    margin: 0px 5px 0px 0px;
 }
 
 .wlWorkYear {
@@ -416,7 +412,7 @@ input[type=submit]:hover {
 .audioTrackRow {
     display: flex;
     align-items: center;
-    padding: 5px;
+    padding: 10px 0px 10px 0px;
 }
 
 div.amplitude-play-pause {
@@ -445,7 +441,7 @@ div.audioProgress {
 
 input.amplitude-song-slider {
     height: 10px;
-    width: 100px;
+    width: 200px;
 }
 
 
@@ -505,7 +501,7 @@ input.amplitude-song-slider {
     }
 
     .wlWorkLinkButton {
-        margin: 5px;
+        /* margin: 5px;*/
     }
 
     .pdTopContainer {
