@@ -48,7 +48,7 @@ hr {
 a:hover {
     color: gold;
 }
-h1 {
+h2 {
     color: gold;
 }
 
@@ -164,6 +164,7 @@ a.nav-link.brand {
 
 .wlWorkTitle {
     padding-right: 20px;
+    font-size: 1.1rem;
     color: gold
 }
 
@@ -183,7 +184,7 @@ a.nav-link.brand {
     background-color: #444444;
     white-space: nowrap;
     padding: 0px 5px 0px 5px; 
-    margin: 0px 5px 0px 0px;
+    margin: 0px 5px 5px 0px;
 }
 
 .wlWorkYear {
@@ -490,7 +491,10 @@ input.amplitude-song-slider {
         flex-direction: column;
     }
 
-    
+    .announcementSingleImage {
+        justify-content: center;
+    }
+
     .announcementSectionText {
         margin: 10px 0px 0px 0px;
     }

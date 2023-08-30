@@ -667,8 +667,37 @@ document.addEventListener('DOMContentLoaded', (event) => {
             "name": "Trio Dances",
             "details": "",
             "url": "/hidden/P0035 Trio Dances/P0035 full.mp3"
-        } 
+        },
+        {
+            "playerIdx": 110,
+            "name": "Lunaluma",
+            "details": "",
+            "url": "/audio/hushcosmos/SR022 Lunaluma.mp3"
+        },
+        {
+            "playerIdx": 111,
+            "name": "New Sails",
+            "details": "",
+            "url": "/audio/hushcosmos/SR018 New Sails.mp3"
+        },
+        {
+            "playerIdx": 112,
+            "name": "Homeless On The Coast",
+            "details": "",
+            "url": "/audio/hushcosmos/SR024 Homeless on the Coast.mp3"
+        },
+        {
+            "playerIdx": 113,
+            "name": "Eulogy",
+            "details": "",
+            "url": "/audio/hushcosmos/SR016 Eulogy.mp3"
+        },
+        {
+            "playerIdx": 114,
+            "name": "Sleepwalking HC",
+            "details": "",
+            "url": "/audio/hushcosmos/SR028 Sleepwalking HC.mp3"
+        }
       ]
     });
-
 });
