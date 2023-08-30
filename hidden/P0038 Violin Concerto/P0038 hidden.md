@@ -11,6 +11,8 @@ permalink: /vc-6782366/
 
 {% include "hiddenWorkAudioAndPDF.html" %}
 
+(when pressing the play button, please allow for a short pause before playback begins)
+
 <div class="pdMainContent">
     <p>
     I. Thermals - II. Far Cliffs - III. Life Force
