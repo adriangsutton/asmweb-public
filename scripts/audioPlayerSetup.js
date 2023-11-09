@@ -697,6 +697,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
             "name": "Sleepwalking HC",
             "details": "",
             "url": "/audio/hushcosmos/SR028 Sleepwalking HC.mp3"
+        },
+        {
+            "playerIdx": 115,
+            "name": "War Horse Orchestral Suite",
+            "details": "",
+            "url": "/hidden/P0049 War Horse Orchestral Suite/P0049 full.mp3"
         }
       ]
     });
