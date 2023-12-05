@@ -658,7 +658,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         },
         {
             "playerIdx": 108,
-            "name": "Bacterial Dance",
+            "name": "Bacterial",
             "details": "",
             "url": "/hidden/Orchestral Miniatures/P0054 Dr Semmelweis.mp3"
         },
@@ -703,6 +703,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
             "name": "War Horse Orchestral Suite",
             "details": "",
             "url": "/hidden/P0049 War Horse Orchestral Suite/P0049 full.mp3"
+        },
+        {
+            "playerIdx": 116,
+            "name": "The Train Departs",
+            "details": "",
+            "url": "/works/P0056/audio/P0056.mp3"
         }
       ]
     });
