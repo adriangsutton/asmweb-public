@@ -370,7 +370,16 @@ a.nav-link.brand {
     color: #FF4444;
 }
 
+/******************************  CD RELEASE PAGE  ***************************************/
 
+.cdReleaseRow {
+    display: flex;
+    align-items: center;
+}
+
+.cdReleaseRowPlayer {
+    margin: 0px 0px 0px 10px;
+}
 /******************************  CONTACT PAGE  ***************************************/
 .contactPage {
     display: flex;

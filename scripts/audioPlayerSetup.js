@@ -658,7 +658,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         },
         {
             "playerIdx": 108,
-            "name": "Dr Semmelweis",
+            "name": "Bacterial Dance",
             "details": "",
             "url": "/hidden/Orchestral Miniatures/P0054 Dr Semmelweis.mp3"
         },
