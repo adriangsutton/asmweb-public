@@ -5,3 +5,4 @@ Disallow: /sstory-7122742/
 Disallow: /smasque-7398471/
 Disallow: /triod-8399474/
 Disallow: /vc-6782366/
+Disallow: /cdrel-2024/
