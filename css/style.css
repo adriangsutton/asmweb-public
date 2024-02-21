@@ -2,9 +2,9 @@
 
 html {
     font-family: 'Nunito', sans-serif;
-    font-size: 0.9em;
+    font-size: 1em;
     color: #EEEEEE;
-    background-color: #222222;
+    background-color: black;
     height: 100vh;
     width: 100%;
     margin: 0;
@@ -35,9 +35,7 @@ body {
 }*/
 
 /************* SITE-WIDE ELEMENT SETTINGS ********************/
-p {
-    font-size: 1.3rem;  /* Default font size for content */
-}
+
 a {
     text-decoration: none;
     color: #88AAFF;
@@ -48,7 +46,7 @@ hr {
 a:hover {
     color: gold;
 }
-h2 {
+h2, h3 {
     color: gold;
 }
 
@@ -105,22 +103,184 @@ a.nav-link.brand {
     color: red;
 }
 /******************************  MAIN SECTION CONTAINER  ***************************************/
+
 .mainsection{
-    /* Center the content */
     display: flex;
-    flex-grow: 1;
     padding: 0px 40px 0px 40px;
     flex-direction: column;
     justify-content: center;
 }
+
+.backstretch img {
+    filter: brightness(20%)
+}
+
+
 /******************************  FOOTER  ***************************************/
 .footer {
     display: flex;
     justify-content: center;
 }
 
-/***************************** FRONT PAGE *******************************/
+/***************************** FRONT PAGE DIVS *******************************/
 
+.frontPagePanels {
+    display: flex;
+    flex-direction: column;
+}
+
+.frontPagePicBioPanel {
+    display: flex;
+    flex-direction: row;
+}
+
+.frontPageNewsEventsPanel {
+    display: flex;
+}
+
+.frontPageImage img {
+    width: 100%;
+    max-width: 600px;
+    object-fit: cover;
+}
+
+.frontPageBio {
+    /* width: 100%; */
+    margin: 0px;
+    padding: 20px;
+    background-color: #333333;
+}
+
+
+/************************* NEWS ITEMS ***************************************/
+
+.newsEventsPanel {
+    display: flex;
+}
+
+ .newsPanel {
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+    /* justify-content: center; */
+    background-color: #555555;
+    min-width: 65%; 
+}
+
+.newsBox {
+    display: flex;
+    border: solid 1px gold;
+    color: black;
+    background-color: #DDDDDD;
+}
+
+.newsBoxDetail {
+    display: flex;
+    flex-direction: column;
+}
+
+.newsBoxImage {
+}
+
+.newsBoxImage img {
+    max-width: 248px;
+}
+
+.newsBoxDate {
+    color: #888888;
+    margin: 10px;
+}
+
+.newsBoxTitle {
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin: 10px 10px 0px 10px;
+}
+
+.newsText {
+    color: #555555;
+    font-size: 0.8rem;
+    margin: 0px 10px 10px 10px;
+}
+
+
+
+
+/***************************** UPCOMING EVENTS *******************************/
+
+.eventsPanel {
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    max-width: 35%;
+    background-color: #111111;
+}
+
+.eventsPanelHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.eventsListing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.eventBox {
+    display: flex;
+    font-size: 0.8rem;
+    background-color: #333333;
+    margin: 20px;
+}
+
+.eventDateBox {
+    display: flex;
+    flex-direction: column;
+}
+
+.eventDate {
+    display: flex;
+    flex-direction: column;
+    color: red;
+    border: solid 1px red;
+    margin: 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+.eventDateMonth {
+    display: flex;
+    font-size: 0.9rem;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.eventDateDay {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.eventDetail {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 10px;
+}
+
+.eventTitle {
+    font-weight: bold;
+    font-size: 1.0rem;
+    color: gold;
+}
+
+.eventLocation {
+    color: gold;
+}
+
+
+/***************************** ANNOUNCEMENTS (redundant - delete) *******************************/
 .announcementSection {
     display: flex;
     flex-direction: row;
@@ -139,9 +299,7 @@ a.nav-link.brand {
     border: 1px solid white;
 }
 
-.backstretch img {
-    filter: brightness(20%)
-}
+
 
 /***************************** WORKS LIST PAGE *******************************/
 
@@ -458,7 +616,7 @@ input.amplitude-song-slider {
 /******************************  MEDIA QUERY ADJUSTMENTS  ***************************************/
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     /* For phones: */
 
     .socialsiconbox img {
@@ -493,9 +651,37 @@ input.amplitude-song-slider {
     }
 
     p {
-        font-size: 1.1rem;  /* Default font size for content */
+        /* font-size: 1.1rem;  /* Default font size for content */
     }
    
+    .frontPagePicBioPanel {
+        flex-direction: column;
+    }
+
+    .frontPageNewsEventsPanel {
+        flex-direction: column;
+    }
+
+    .newsPanel {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+    }
+
+    .newsBox {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .eventsPanel {
+        max-width: 100%;
+    }
+
+    .eventsListing {
+        width: 100%;
+    }
+
+    /*
     .announcementSection {
         flex-direction: column;
     }
@@ -512,6 +698,7 @@ input.amplitude-song-slider {
         padding: 0px 0px 20px 0px;
         margin: 0px;
     }
+    */
 
     .wlWorkLinkButton {
         /* margin: 5px;*/
