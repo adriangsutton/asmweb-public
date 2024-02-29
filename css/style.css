@@ -136,6 +136,7 @@ a.nav-link.brand {
 
 .frontPageNewsEventsPanel {
     display: flex;
+    margin: 30px 0px 0px 0px;
 }
 
 .frontPageImage img {
@@ -145,10 +146,9 @@ a.nav-link.brand {
 }
 
 .frontPageBio {
-    /* width: 100%; */
     margin: 0px;
     padding: 20px;
-    background-color: #333333;
+    border: 1px solid gold;
 }
 
 
@@ -162,16 +162,12 @@ a.nav-link.brand {
     display:flex;
     flex-direction: column;
     gap: 1em;
-    /* justify-content: center; */
-    background-color: #555555;
     min-width: 65%; 
 }
 
 .newsBox {
     display: flex;
     border: solid 1px gold;
-    color: black;
-    background-color: #DDDDDD;
 }
 
 .newsBoxDetail {
@@ -198,7 +194,7 @@ a.nav-link.brand {
 }
 
 .newsText {
-    color: #555555;
+    color: #dddddd;
     font-size: 0.8rem;
     margin: 0px 10px 10px 10px;
 }
