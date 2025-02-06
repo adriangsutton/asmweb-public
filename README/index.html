@@ -1,0 +1,29 @@
+<p>The Adrian Sutton website is built from Eleventy, a static site generator, which runs as a node.js package</p>
+<p>The src folder contains all the data and resources, which - when you run 'npm start' from /Volumes/Devel/web/asmweb - will compile/create/copy all the static html, image, sound files etc. in the various folders over to the 'public' directory, and at the same time start a local web server for you to view and develop on: localhost:8080/</p>
+<p>The 'src' folder and the 'public' folder are TWO SEPARATE GIT REPOSITORIES on adriangsutton.github.io:
+asmweb-src (a private repo)
+asmweb-public (a public repo - i.e. the actual website, served as a Github Pages site)</p>
+<p>With the asmweb-public folder:
+Don't EVER delete the 'public' directory in this folder, because you've actually set the remote Git repository (asmweb-public) to be the upstream (= authoritative) source, even though in reality you'll be pushing to that repo from your development machine.</p>
+<p>An especially important reason to be careful and not delete the public directory is because it contains the CNAME file that tells Github Pages that we're connecting our custom domain (www.adriansutton.com) to this repo (Github Pages sites without a custom domain set like this are at adriangsutton.github.io/<repoName>)</p>
+<p>11ty is a clever templating system using (as the default) the Nunjucks templating language.
+The '_includes' folder contains the various subcomponents/templates to handle the different kinds of pages.
+It's hierarchical, so that e.g. various page templates can extend the overall base page template (see /_includes/base.njk)</p>
+<p>The 'pages' folder contains the .md files that specify what the main html files will be (each one specifies in the front matter what template in _includes that it will use)</p>
+<p>When the time comes to add material to the site, e.g. a new music project, here are the steps:</p>
+<p>Create a new Work folder for it under /works
+Each new work should have a .md file, with the front matter (the stuff at the top, between the '---' demarcations) detailing various things that are like instance variables.
+The image/audio files for each project also need to be here.</p>
+<p>The audio player for the site is AmplitudeJS (see the script entry in base.njk's header, which it fetches from a CDN) which has to be given the complete list of tracks playable on the site in one JSON data structure; see /scripts/audioPlayerSetup.js.</p>
+<p>If you need access to this track data for other reasons, you need to duplicate it (e.g. _data/audio.json).. though currently you're handling this with frontmatter stuff in each file pertaining to a musical work.</p>
+<p>11ty automatically creates &quot;collections&quot; of .md documents that share the same tag in (frontmatter) 'tags:'. But in order to sort these collections to iterate over (e.g. for the works list page) you have to create a filter.. see the configuration code in .eleventy.js</p>
+<p>Once you've added/changed material to the site:
+(asmweb) npm start
+.. which will build the site into the 'public' directory (and start a server on port 8080 so you can see it on your local browser)
+Then:
+cd public
+git add . //to add new files to the repo dir
+git commit -m &quot;(description of my latest changes)&quot;
+git push</p>
+<p>This will update the Git site with the changed files and you should be ready to go. You might have to wait a few minutes for the changes to be propagated.</p>
+<p>Github pages assume you want to use Jekyll to build static sites, so you have to specifically disable this by including an empty file named '.nojekyll', which flags to Github not to try and 'build' your site!</p>
